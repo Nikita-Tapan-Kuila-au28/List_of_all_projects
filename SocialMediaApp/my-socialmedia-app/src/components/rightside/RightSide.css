@@ -1,0 +1,22 @@
+.RIghtSide{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+
+.settingIcons{
+    margin-top:1rem;
+    display:flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.settingIcons>div{
+    font-size: 1.7rem;
+   color:transparent;
+   background-clip:text ;
+   background-image: linear-gradient(to right, #F96666,#fc00ff);
+   
+}

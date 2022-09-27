@@ -1,0 +1,74 @@
+.FollowerImg{
+
+    border-radius: 50%;
+    width:4rem;
+    height:4rem;
+    
+}
+.followersCard{
+    width:100%;
+    border-radius: 0.75rem;
+    gap:1rem;
+    font-size: 13px;
+    display:flex;
+    flex-direction: column;
+}
+.Follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    /* background-color: var(--cardColor);  */
+
+}
+.Follower>div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.name>span:nth-of-type(1){
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+}
+.fc-button{
+    height:2rem;
+    padding-left:  20px;
+    padding-right: 20px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Search{
+    width:69%;
+    display: flex;
+    align-items: center;
+
+    background-color: var(--inputbox);
+    border-radius: 10px;
+    padding:5px;
+    height:18px;
+}
+.Search>input{
+   
+   
+    background-color: transparent;
+    border:none;
+    outline:none;
+   
+}
+.s-icon{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #F96666,#fc00ff);
+    border-radius: 5px;
+    padding:4px;
+    color:white;
+}
+.s-icon:hover{
+    cursor: pointer;
+}

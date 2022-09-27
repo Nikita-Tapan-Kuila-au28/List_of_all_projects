@@ -1,0 +1,17 @@
+.purple{
+    background-color: #6A67CE;
+}
+.bold{
+    font-weight: 600;
+}
+.container{
+    margin-left: 500px;
+}
+#nat_color{
+    color:white;
+}
+.container{
+    margin-left: 300px;
+    margin-right: 200px;
+    width:60%;
+}

@@ -1,0 +1,95 @@
+.profileCard{
+    border-radius:1.5rem;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    gap:10px;
+    overflow-x: clip;
+    background:var(--cardColor)
+
+}
+.profileImages{
+    position:relative;
+    display:flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+.profileImages>img:nth-of-type(1){
+    width:100%;
+    height:8rem
+    
+}
+.profileImages>img:nth-of-type(2){
+
+    width:6rem;
+     height:5.5rem;
+    position:absolute;
+    border-radius:50%;
+    bottom:-3rem;
+    
+}
+.profileData{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.profileData>span:nth-of-type(1){
+  font-weight: bold;
+}
+.profileFollowStatus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap:0.75rem;
+    
+}
+.profileFollowStatus>div{
+   
+    display: flex;
+    gap:1rem;
+    width:80%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+ .following,.followers,.Posts{
+   
+    display: flex;
+    flex-direction: column;
+    gap:0.4rem;
+    align-items: center;
+    
+   
+}
+
+.following>span:nth-of-type(1),.followers>span:nth-of-type(1),.Posts>span:nth-of-type(1){
+    font-weight:bold;
+}
+.following>span:nth-of-type(2),.followers>span:nth-of-type(2),.Posts>span:nth-of-type(2){
+    color:var(--gray);
+    font-size: 13px;
+}
+.profileFollowStatus>hr{
+    width:85%;
+    border:1px solid var(--hrColor);
+}
+.verticalLine{
+    height:100%;
+    border-left: 2px solid var(--hrColor);
+   
+}
+.profileCard>span{
+    font-weight:1000;
+    color: var(--seagreen);
+    align-self: center;
+    margin-bottom: 1rem;;
+    cursor:pointer;
+    
+   
+}
