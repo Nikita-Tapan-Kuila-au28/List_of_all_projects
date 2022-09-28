@@ -1,0 +1,44 @@
+.infoForm{
+   
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   gap:1rem;
+
+}
+.infoForm h2{
+    text-align: center;
+}
+.infoForm>div{
+ display:flex;
+ gap:1rem;
+ height:3rem;
+ width:90%;
+
+}
+.infodata input{
+    display: flex;
+    border:none;
+    outline:none;
+    background: transparent;
+    border-radius: 8px;
+    width:100%;
+    padding:15px;
+    background: lightgray;
+    flex:1;
+}
+.updateButton{
+    height:40px;
+    width:30%;
+    
+}
+.updateButton:active{
+    height:40px;
+    width:30%;
+    cursor: pointer;
+  color: black;
+  background: transparent;
+  border: 3px solid  lightgray;
+
+}
